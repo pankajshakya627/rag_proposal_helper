@@ -23,7 +23,7 @@ llm = ChatOpenAI(
 
 # 3) Node implementations
 def retrieve_step(state: RAGState) -> RAGState:
-    docs = retriever.get_relevant_documents(state["question"])
+    docs = retriever.invoke(state["question"])
     return {"question": state["question"], "docs": docs}
 
 def answer_step(state: RAGState) -> RAGState:
