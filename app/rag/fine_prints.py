@@ -1,1 +1,0 @@
-# Fine-print extractor / loader

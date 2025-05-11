@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart       
+langchain==0.1.16       
+langgraph==0.0.20
+openai             
+tiktoken
+faiss-cpu           
+pypdf
+python-dotenv
+transformers
