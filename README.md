@@ -22,7 +22,7 @@ A lightweight Retrieval-Augmented Generation (RAG) service for drafting project 
 ### 1. Clone & Install
 
 ```bash
-git clone <repo-url> rag_proposal_helper
+git clone pankajshakya627/rag_proposal_helper
 cd rag_proposal_helper
 
 python -m venv .venv
